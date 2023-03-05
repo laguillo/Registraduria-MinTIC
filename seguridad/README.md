@@ -1,11 +1,5 @@
 <div align="center">
 
-![GitHub repo stars](https://img.shields.io/github/stars/iamjosuefischer/registraduria-seguridad?color=00BAFF)
-![GitHub repo license](https://img.shields.io/github/license/iamjosuefischer/registraduria-seguridad?color=00BAFF)
-![GitHub repo size](https://img.shields.io/github/repo-size/iamjosuefischer/registraduria-seguridad?color=00BAFF)
-![GitHub last commit](https://img.shields.io/github/last-commit/iamjosuefischer/registraduria-seguridad?)
-![GitHub contributors](https://img.shields.io/github/contributors/iamjosuefischer/registraduria-seguridad?color=00BAFF)
-![GitHub watchers](https://img.shields.io/github/watchers/iamjosuefischer/registraduria-seguridad?color=00BAFF)
 ![Java](https://img.shields.io/badge/Java-Language-orange?logo=java)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-Framework-green?logo=springboot)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
@@ -145,29 +139,10 @@ A continuación se presentan los diagramas correspondientes a la base de datos d
 Para correr este proyecto localmente debes seguir los siguientes pasos:
 
 ### 1. Clonar este repositorio
-    $ git clone https://github.com/iamjosuefischer/registraduria-seguridad.git
+    $ git clone https://github.com/laguillo/Registraduria-MinTIC.git
 
 ### 2. Instalar paquetes y ejecutar el proyecto
 Abrir el proyecto en el IDE de IntelliJ IDEA para la instalación automatica de los paquetes del proyecto y posteriormente correrlo localmente.
 
-## Repositorios de este proyecto
-
-En los siguientes repositorios de GitHub se puede encuentrar el back-end, el componente de seguridad, el Api Gateway y el front-end de este proyecto.
-
-### Back-end
-
- - <a href="https://github.com/iamjosuefischer/registraduria-backend">Back-end del proyecto de la registraduría</a>
-
-### Seguridad
-
- - <a href="https://github.com/iamjosuefischer/registraduria-seguridad">Componente de seguridad del proyecto de la registraduría</a>
-
-### Api Gateway
-
- - <a href="https://github.com/iamjosuefischer/registraduria-apigateway">Api Gateway del proyecto de la registraduría</a>
-
-### Front-end
-
- - <a href="https://github.com/iamjosuefischer/registraduria-frontend">Front-end del proyecto de la registraduría</a>
 
 </div>

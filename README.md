@@ -5,7 +5,7 @@
 
 <br>
 
-![Registraduria Logo](./assets/RegistraduriaLogo.png)
+![Registraduria Logo](./apigateway/assets/RegistraduriaLogo.png)
 
 </div>
 
@@ -59,7 +59,7 @@ Teniendo en cuenta lo anterior se ha planteado el siguiente diagrama de casos de
 
 <br>
 
-![Diagrama Casos De uso](./assets/DiagramaCasosDeUso.png)
+![Diagrama Casos De uso](./apigateway/assets/DiagramaCasosDeUso.png)
 
 
 **NOTA:** Todos los casos de uso que se reﬁeren a tareas relacionadas con “Administración” implica llevar a cabo procesos de Creación, Listado, Visualización, Actualización y Eliminación (CRUD). Por ejemplo, el caso de uso “Administración de candidatos” en la implementación de código debe, permitir crear un candidato, visualizarlo, modiﬁcar y eliminarlo teniendo en cuenta un atributo como por ejemplo su cédula y por último la funcionalidad de listar todos los candidatos existentes en la plataforma.
@@ -75,7 +75,7 @@ Por recomendaciones generales de expertos en plataformas de gestión de votacion
 
 <br>
 
-![Diagrama Arquitéctonico](./assets/DiagramaArquitectonico.png)
+![Diagrama Arquitéctonico](./apigateway/assets/DiagramaArquitectonico.png)
 
 
 Como se puede evidenciar el sistema se divide en 2 partes inicialmente, cliente – servidor. En el cliente (front-end) se requiere llevar a cabo la implementación utilizando el framework “Vue JS” y se darán ampliarán los detalles más adelante. Por el lado del servidor (back-end), se encuentra la arquitectura distribuida en 3 partes fundamentalmente, el primer lugar se encuentra el “api gateway” el cual es el encargado de recibir todas las peticiones realizadas por el cliente, y su función principal es llevar a cabo el proceso de redirección de las peticiones ya sea al back-end de seguridad o al back-end de los resultados, a su vez actúa como interceptor “middleware” para validar si determinado usuario con su respectivo rol, tiene acceso a la petición solicitada. Por ejemplo, en caso que un ciudadano cualquiera quiera modiﬁcar un resultado de alguna mesa, el middleware debería denegarle la transacción ya que este no posee el permiso suﬁciente para llevar a cabo esta tarea.
@@ -108,11 +108,11 @@ A continuación se presentan los diagramas correspondientes a la base de datos d
 
 - ### Diagrama Base de Datos Back-end de Resultados (Python - Flask)
 
-    ![Diagrama Arquitéctonico](./assets/DiagramaResultados.png)
+    ![Diagrama Arquitéctonico](./apigateway/assets/DiagramaResultados.png)
 
 - ### Diagrama Base de Datos Back-end de Seguridad (Java - Spring Boot)
 
-    ![Diagrama Arquitéctonico](./assets/DiagramaSeguridad.png)
+    ![Diagrama Arquitéctonico](./apigateway/assets/DiagramaSeguridad.png)
 
 ## Requisitos técnicos
 
